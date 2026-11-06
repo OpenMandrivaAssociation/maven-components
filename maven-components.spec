@@ -1,6 +1,6 @@
 Name:		maven-components
 Version:	3.10.0
-Release:	1
+Release:	2
 Summary:	Maven and Resolver jars as system Maven artifacts
 Group:		Development/Java
 License:	Apache-2.0
@@ -13,6 +13,11 @@ BuildRequires:	python
 BuildRequires:	sysjar
 BuildRequires:	maven >= 1:3.10.0-2
 Requires:	maven >= 1:3.10.0-2
+# guice, jcl-over-slf4j and plexus-component-annotations inherit these
+# parents. The jar packages do not ship the parent POMs.
+Requires:	mvn(com.google.inject:guice-parent:pom::)
+Requires:	mvn(org.slf4j:slf4j-parent:pom::)
+Requires:	mvn(org.codehaus.plexus:plexus-containers:pom::)
 
 %description
 Index of the jars in the maven package. One record per Maven coordinate
