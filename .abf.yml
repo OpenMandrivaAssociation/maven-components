@@ -1,1 +1,2 @@
-sources: {}
+sources:
+  maven-resolver-1.9.16.tar.gz: 2c43026bc07abceb60a8f7e9f7f2396ff28aaaf9
