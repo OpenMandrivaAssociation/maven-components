@@ -1,8 +1,8 @@
 %global resolver_api_ver 1.9.16
 
 Name:		maven-components
-Version:	3.10.0
-Release:	3
+Version:	3.10.1
+Release:	1
 Summary:	Maven and Resolver jars as system Maven artifacts
 Group:		Development/Java
 License:	Apache-2.0
@@ -17,8 +17,8 @@ Source1:	https://github.com/apache/maven-resolver/archive/refs/tags/maven-resolv
 BuildRequires:	python
 BuildRequires:	sysjar
 BuildRequires:	java-current-devel
-BuildRequires:	maven >= 1:3.10.0-2
-Requires:	maven >= 1:3.10.0-2
+BuildRequires:	maven >= 1:3.10.1-1
+Requires:	maven >= 1:3.10.1-1
 # guice, jcl-over-slf4j and plexus-component-annotations inherit these
 # parents. The jar packages do not ship the parent POMs.
 Requires:	mvn(com.google.inject:guice-parent:pom::)

@@ -32,7 +32,7 @@ KNOWN = {
     "com.google.inject:guice",
     "commons-cli:commons-cli",
     "commons-codec:commons-codec",
-    "javax.annotation:javax.annotation-api",
+    "jakarta.annotation:jakarta.annotation-api",
     "javax.inject:javax.inject",
     "org.apache.httpcomponents:httpclient",
     "org.apache.httpcomponents:httpcore",
@@ -43,9 +43,6 @@ KNOWN = {
     "org.codehaus.plexus:plexus-interpolation",
     "org.codehaus.plexus:plexus-sec-dispatcher",
     "org.codehaus.plexus:plexus-utils",
-    "org.jline:jansi-core",
-    "org.jline:jline-terminal",
-    "org.jline:jline-terminal-jni",
     "org.ow2.asm:asm",
     "org.slf4j:jcl-over-slf4j",
     "org.slf4j:slf4j-api",
@@ -53,7 +50,7 @@ KNOWN = {
 }
 
 EXPECTED = {
-    "org.apache.maven": "3.10.0",
+    "org.apache.maven": "3.10.1",
     "org.apache.maven.resolver": "2.0.24",
 }
 
